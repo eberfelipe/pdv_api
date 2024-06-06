@@ -1,3 +1,5 @@
+
+-- Inserção das categorias iniciais
 INSERT INTO categorias (descricao) VALUES
 ('Informática'),
 ('Celulares'),
