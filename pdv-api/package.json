@@ -4,7 +4,7 @@
   "description": "### Descrição API para um PDV (Frente de Caixa).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon pdv_api/pdv-api/index.js"
   },
   "keywords": [],
   "author": "",
