@@ -1,10 +1,10 @@
 
-# PDV API
+## PDV API
 
-## Descrição
+### Descrição
 API para um PDV (Frente de Caixa).
 
-## Configuração
+### Configuração
 1. Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente.
 2. Instale as dependências:
    ```sh
@@ -15,7 +15,7 @@ API para um PDV (Frente de Caixa).
    npm start
    ```
 
-## Scripts
+### Scripts
 - `npm start`: Inicia a aplicação.
 - `npm run dev`: Inicia a aplicação em modo de desenvolvimento com nodemon.
 
@@ -49,4 +49,3 @@ API para um PDV (Frente de Caixa).
 - **index.js**: Arquivo principal da aplicação.
 - **package.json**: Dependências e scripts do projeto.
 - **package-lock.json**: Versões exatas das dependências instaladas.
-

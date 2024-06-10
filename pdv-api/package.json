@@ -1,7 +1,7 @@
 {
   "name": "pdv-api",
   "version": "1.0.0",
-  "description": "## Descrição API para um PDV (Frente de Caixa).",
+  "description": "### Descrição API para um PDV (Frente de Caixa).",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon pdv_api/pdv-api/index.js"
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@eslint/js": "^9.4.0",
     "eslint": "^9.4.0",
-    "globals": "^15.3.0",
+    "globals": "^15.4.0",
     "nodemon": "^3.1.3"
   }
 }
