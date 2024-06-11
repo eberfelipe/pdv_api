@@ -19,7 +19,7 @@ const authenticate = async (req, res, next) => {
     const user = await db('usuarios').where({ id: decoded.id }).first();
 
     if (!user) {
-      return res.status(401).json({ error: 'Usuário não encontrado' });
+      return res.status(404).json({ error: 'Usuário não encontrado' });
     }
 
     req.user = user;
